@@ -1,0 +1,25 @@
+Source: x11proto-render
+Section: libdevel
+Priority: optional
+Maintainer: Yauhen Kharuzhy <jekhor@gmail.com>
+Build-Depends: debhelper (>= 4.0.0)
+Standards-Version: 3.7.2
+XS-Vcs-Git: git://git.debian.org/git/pkg-xorg/proto/x11proto-render
+XS-Vcs-Browser: http://git.debian.org/?p=pkg-xorg/proto/x11proto-render.git
+
+Package: x11proto-render-dev
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Conflicts: render-dev (<= 1:0.9.2-1)
+Replaces: render-dev (<= 1:0.9.2-1)
+Pre-Depends: x11-common (>= 1:7.0.0)
+Description: X11 Render extension wire protocol
+ This package provides development headers describing the wire protocol for
+ the Render extension, used to implement Porter-Duff operations within X.
+ .
+ More information about X.Org can be found at:
+ <URL:http://www.X.org>
+ <URL:http://xorg.freedesktop.org>
+ <URL:http://lists.freedesktop.org/mailman/listinfo/xorg>
+ .
+ This package is built from the X.org renderproto proto module.
