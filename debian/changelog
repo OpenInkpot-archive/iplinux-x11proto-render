@@ -1,3 +1,10 @@
+x11proto-render (2:0.11-1) asimov; urgency=low
+
+  * New upstream release.
+  * Packaging cleanup.
+
+ -- Mikhail Gusarov <dottedmag@dottedmag.net>  Sat, 26 Sep 2009 02:40:22 +0700
+
 x11proto-render (2:0.9.3-3) asimov; urgency=low
 
   * First build for IPlinux.
