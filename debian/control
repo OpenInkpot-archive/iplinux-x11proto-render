@@ -2,9 +2,9 @@ Source: x11proto-render
 Section: libdevel
 Priority: optional
 Maintainer: Mikhail Gusarov <dottedmag@dottedmag.net>
-Build-Depends: debhelper (>= 7), autoconf, automake, xorg-util-macros
-XCS-Cross-Host-Build-Depends: debhelper (>= 7), autoconf, automake, xorg-util-macros
-Standards-Version: 3.8.0
+Build-Depends: debhelper (>= 7), autoconf, automake, xorg-util-macros (>= 1.2)
+XCS-Cross-Host-Build-Depends: debhelper (>= 7), autoconf, automake, xorg-util-macros (>= 1.2)
+Standards-Version: 3.8.3
 
 Package: x11proto-render-dev
 Architecture: all
