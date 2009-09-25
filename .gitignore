@@ -8,3 +8,7 @@ configure
 install-sh
 missing
 renderproto.pc
+*~
+renderproto-*.tar.*
+ChangeLog
+tags
